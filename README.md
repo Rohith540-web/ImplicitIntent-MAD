@@ -11,6 +11,29 @@ Latest Version Android Studio
 
 ## ALGORITHM:
 
+Step 1:Start the application.
+
+Step 2:Create the user interface using XML layout.
+
+Step 3:Create an EditText to enter the URL.
+
+Step 4:Create a Button to perform the search operation.
+
+Step 5:Initialize the EditText and Button using findViewById().
+
+Step 6:Set an OnClickListener() for the Button.
+
+Step 7:Get the URL entered by the user using getText().toString().
+
+Step 8:Create an implicit Intent using Intent.ACTION_VIEW.
+
+Step 9:Convert the entered URL into a URI using Uri.parse().
+
+Step 10:Pass the Intent to startActivity() to open the appropriate application.
+
+Step 11:Android identifies a suitable application, such as a web browser, to handle the request.
+
+Step 12:Stop
 
 
 ## PROGRAM:
